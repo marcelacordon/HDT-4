@@ -6,6 +6,8 @@
  
 import java.util.ArrayList;
 
+// codigo utilizado en el HDT 2 por el grupo 1
+
 /**
  * @author: Marcela Cordon 
  * @param <T>
@@ -16,7 +18,7 @@ import java.util.ArrayList;
 public class Controller {
     
     View vista = new View();
-    Calculator calc = new Calculator(); 
+    Calculadora calc = new Calculadora(); 
     Stack<Integer> Pila = new Stack<Integer>();
     String item; 
     ArrayList<String> items = new ArrayList<String>();
